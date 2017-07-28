@@ -14,7 +14,7 @@ namespace Abstract_Planet
     /// <summary>
     /// this is IHasMoon interface
     /// </summary>
-    interface IHasMoon
+    public interface IHasMoon
     {
         //public property
         bool HasMoon();
