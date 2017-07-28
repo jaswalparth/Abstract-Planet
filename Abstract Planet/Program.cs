@@ -15,7 +15,7 @@ namespace Abstract_Planet
     {
         static void Main(string[] args)
         {
-            GiantPlanet giantPlanet = new GiantPlanet("Jupiter", 139822, 317.8, "GAS");
+            GiantPlanet giantPlanet = new GiantPlanet("Mars", 6779, 6.39, "GAS");
             TerrestrialPlanets terrestrialPlanet = new TerrestrialPlanets("EARTH", 12742, 5.9722, true);
             giantPlanet.ToString();
             terrestrialPlanet.ToString();
@@ -24,7 +24,6 @@ namespace Abstract_Planet
         }
         static void WAITFORANYKEY()
         {
-            Console.ReadLine();
         }
     }
 }
