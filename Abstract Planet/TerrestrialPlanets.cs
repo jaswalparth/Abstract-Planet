@@ -13,7 +13,7 @@ namespace Abstract_Planet
     /// <summary>
     /// Terristial planet class
     /// </summary>
-    public class TerristialPlanets : Planet, IHasMoon, IHabital
+    public class TerrestrialPlanets : Planet, IHasMoon, IHabital
     {
         //private instance variable
         private bool _oxygen;
@@ -30,7 +30,7 @@ namespace Abstract_Planet
         /// <param name="oxygen"></param>
         // CONSTRUCTOR--------------
 
-        public TerristialPlanets(string name, double diameter, double mass, bool oxygen) : base(name, diameter, mass)
+        public TerrestrialPlanets(string name, double diameter, double mass, bool oxygen) : base(name, diameter, mass)
         {
             this._oxygen = oxygen;
         }
