@@ -15,15 +15,18 @@ namespace Abstract_Planet
     {
         static void Main(string[] args)
         {
-            GiantPlanet giantPlanet = new GiantPlanet("Mars", 6779, 6.39, "GAS");
+            Console.WriteLine("---------Press enter to see the information of planets---------");
+            Console.WriteLine();
+            Program.ONCLICK();
+            GiantPlanet giantPlanet = new GiantPlanet("MARS", 6779, 6.39, "GAS");
             TerrestrialPlanets terrestrialPlanet = new TerrestrialPlanets("EARTH", 12742, 5.9722, true);
             giantPlanet.ToString();
+            Program.ONCLICK();
             terrestrialPlanet.ToString();
-            Program.WAITFORANYKEY();
-
         }
-        static void WAITFORANYKEY()
+        static void ONCLICK()
         {
+            Console.ReadLine();
         }
     }
 }
